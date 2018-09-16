@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;obj.json&apos; to &apos;JSON demo/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;JSON-Java-Tutorial-master&apos;&#x0D;&#x0A;- Destination element: &apos;JSON demo/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;obj.json&apos;" description="Copy file" destination="=JSON demo/src&lt;" element1="assets/obj.json" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1523805155767" units="0" version="1.0"/>
+</session>

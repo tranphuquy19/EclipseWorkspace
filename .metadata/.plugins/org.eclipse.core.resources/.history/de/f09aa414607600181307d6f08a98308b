@@ -1,0 +1,16 @@
+package server_package;
+
+import java.util.Scanner;
+
+public class runmain {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String temp = "";
+		while (true) {
+			System.out.println("Send to client>>");
+			temp = sc.nextLine();
+			new ToClient(temp);
+		}
+
+	}
+}

@@ -1,0 +1,32 @@
+package server_package;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class ToClient {
+	Socket socket;
+	PrintWriter printWriter;
+	//String message = "";
+	Boolean bool = true;
+
+	public ToClient(String message) {
+		try {
+			socket = new Socket("192.168.1.103", 16058);
+			printWriter = new PrintWriter(socket.getOutputStream());
+			printWriter.write(message);
+			printWriter.flush();
+			printWriter.close();
+			socket.close();
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	
+}

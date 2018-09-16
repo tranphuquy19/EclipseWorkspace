@@ -1,0 +1,1 @@
+java -jar C:\Users\%username%\Documents\CallMyCat\final.jar

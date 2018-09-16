@@ -1,0 +1,10 @@
+package defaultConfig;
+
+public class App {
+
+	public static void main(String[] args) {
+		EasyTranslateConfig window = new EasyTranslateConfig();
+		window.setVisible(true);
+	}
+
+}

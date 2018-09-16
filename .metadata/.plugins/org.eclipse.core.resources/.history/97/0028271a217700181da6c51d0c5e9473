@@ -1,0 +1,33 @@
+package shutdownServer;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class CustomsCommand {
+	private String result = "";
+	public CustomsCommand(String cmd, String host, int port)
+	{
+		Process p;
+		try {
+			p = Runtime.getRuntime().exec(cmd);
+			String s;
+			System.out.println(p.getOutputStream());
+			BufferedReader stdInput = new BufferedReader(new InputStreamReader(p.getInputStream()));
+			while((s = stdInput.readLine()) != null)
+			{
+				System.out.println("Result is.. "+s);
+				new ToClient(host, port, s);
+				//result += "\n" + s;
+			}
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	public String getResult() {
+		return result;
+	}
+
+}

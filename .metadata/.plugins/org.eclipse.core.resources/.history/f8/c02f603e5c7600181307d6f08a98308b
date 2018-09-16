@@ -1,0 +1,34 @@
+package server_package;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.util.Scanner;
+
+public class ToClient {
+	static Socket socket;
+	static PrintWriter printWriter;
+	static String message = "";
+	static Boolean bool = true;
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		try {
+			socket = new Socket("192.168.1.103", 16058);
+			while(bool)
+			{
+				printWriter = new PrintWriter(socket.getOutputStream());
+				System.out.print("Send to client>>");
+				message = sc.nextLine();
+				printWriter.write(message);
+				printWriter.flush();
+			}
+			
+			printWriter.close();
+			socket.close();
+		} catch (IOException ex) {
+			ex.printStackTrace();
+		}
+	}
+
+}

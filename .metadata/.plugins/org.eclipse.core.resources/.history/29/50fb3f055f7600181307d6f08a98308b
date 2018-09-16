@@ -1,0 +1,84 @@
+package server_package;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+import javafx.scene.media.Media;
+
+import javax.swing.JTextField;
+import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.awt.event.ActionEvent;
+
+@SuppressWarnings("serial")
+public class sending extends JFrame {
+
+	private JPanel contentPane;
+	private JTextField txtSend;
+	Socket socket;
+	PrintWriter printWriter;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					sending frame = new sending();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public sending() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 450, 300);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		txtSend = new JTextField();
+		txtSend.setBounds(10, 24, 230, 20);
+		contentPane.add(txtSend);
+		txtSend.setColumns(10);
+		
+		JButton btnSend = new JButton("New button");
+		btnSend.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					socket = new Socket("192.168.1.103", 16058);
+					printWriter = new PrintWriter(socket.getOutputStream());
+					printWriter.write(txtSend.getText());
+					System.out.println(txtSend.getText());
+					printWriter.flush();
+					printWriter.close();
+					socket.close();
+				} catch (UnknownHostException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				} catch (IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		btnSend.setBounds(10, 68, 89, 23);
+		contentPane.add(btnSend);
+	}
+}

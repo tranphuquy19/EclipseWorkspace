@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Trying_Different_Languages.java&apos; to &apos;Translate/src/main/java/EasyTranslate&apos;&#x0D;&#x0A;- Original project: &apos;JavaGoogleSpeechRecognizer&apos;&#x0D;&#x0A;- Destination element: &apos;Translate/src/main/java/EasyTranslate&apos;&#x0D;&#x0A;- Original element: &apos;application.Trying_Different_Languages.java&apos;" description="Copy compilation unit" destination="=Translate/src\/main\/java&lt;EasyTranslate" element1="/src&lt;application{Trying_Different_Languages.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1535740322660" units="1" version="1.0"/>
+</session>

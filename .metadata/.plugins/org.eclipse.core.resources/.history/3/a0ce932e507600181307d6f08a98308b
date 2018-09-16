@@ -1,0 +1,40 @@
+package server_package;
+
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+
+	public static void main(String[] args) throws IOException {
+
+		// Khởi tạo đối tượng Server socket cổng 3333
+		ServerSocket ss = new ServerSocket(8888);
+		Socket s = ss.accept();/// Khởi tạo Socket và chấp nhận kết nối từ đối tượng Socket Server.
+		DataInputStream din = new DataInputStream(s.getInputStream());/// Tạo luồng đọc dữ liệu vào từ client
+		DataOutputStream dout = new DataOutputStream(s.getOutputStream());// Tạo luồng in dữ liệu ra ví dụ như bạn xin
+		// phép bố bạn gái chở bạn gái đi chơi nhưng
+		// ông thấy mặt bạn không ổn nên ổng phản
+		// hồi là CÚT.
+
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));// Tạo bộ đệm đọc đọc dữ liệu
+		// Vòng lặp luôn luôn lắng nghe và chẳng bao giờ thấu hiểu của bố vợ tương lai
+		// =))
+		String str = "", str2 = "";
+		while (!str.equals("stop")) {
+			str = din.readUTF();
+			System.out.println("client says: " + str);
+			str2 = br.readLine();
+			dout.writeUTF(str2);
+			dout.flush();
+		}
+		din.close();
+		s.close();
+		ss.close();
+	}
+
+}
