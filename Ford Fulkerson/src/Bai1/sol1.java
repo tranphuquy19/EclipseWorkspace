@@ -56,6 +56,7 @@ public class sol1 {
 		Arrays.fill(array, 0);
 	}
 
+	//Nhập data
 	private static void Enter() {
 		int m, i, u, v;
 		SetZeros(c);
@@ -87,38 +88,38 @@ public class sol1 {
 		int u = 1, v = 1;
 		int[] Queue = new int[max];
 		int First, Last;
-		SetZeros(Trace);
+		SetZeros(Trace); //chưa đánh dấu tất cả v
 		First = 1;
 		Last = 1;
 		Queue[1] = A;
-		Trace[A] = n + 1 ;
-		Delta[A] = maxC;
+		Trace[A] = n + 1 ; //đánh dấu bằng số bất kỳ >n
+		Delta[A] = maxC; //khởi tạo nhãn
 		do {
-			u = Queue[First];
+			u = Queue[First]; //lấy u khỏi Queue
 			First++;
 			for (v = 1; v <= n; v++) {
-				if (Trace[v] == 0) {
-					if (f[u][v] < c[u][v]) {
-						Trace[v] = u;
+				if (Trace[v] == 0) { //xét các đỉnh chưa đánh dấu
+					if (f[u][v] < c[u][v]) { //cung thuận trên Gf & trọng số c - f
+						Trace[v] = u; //lưu vết, v mang dấu +
 						Delta[v] = Min(Delta[u], c[u][v] - f[u][v]);
 					}
 					else {
-						if (f[v][u] > 0) {
-							Trace[v] = -u;
+						if (f[v][u] > 0) {//cung nghịch, trọng số là f
+							Trace[v] = -u;//lưu vết, v mang dấu -
 							Delta[v] = Min(Delta[u], f[v][u]);
 						}
 					}
 
-					if (Trace[v] != 0) {
-						if (v == B) {
+					if (Trace[v] != 0) {//trace khác 0(u có thể thăm v)
+						if (v == B) {//có đường tăng luồng A->B
 							return true;
 						}
 						Last++;
-						Queue[Last] = v;
+						Queue[Last] = v; //Đưa v vào Queue
 					}
 				}
 			}
-		} while (First <= Last);
+		} while (First <= Last);//Queue rỗng
 		return false;
 	}
 
