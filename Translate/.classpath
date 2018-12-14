@@ -23,7 +23,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/tranp/Documents/Library/Java Lib/JSON-Simple/json-simple-1.1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Tran Phu Quy/Documents/Library/Java Lib/JSON-Simple/json-simple-1.1.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

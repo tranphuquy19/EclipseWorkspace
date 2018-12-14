@@ -1,7 +1,9 @@
 package main;
 
 public class MeCung {
+	@SuppressWarnings("unused")
 	private int kichThuoc;
+	@SuppressWarnings("unused")
 	private int maps[][];
 	public MeCung(int n, int maps[][])
 	{

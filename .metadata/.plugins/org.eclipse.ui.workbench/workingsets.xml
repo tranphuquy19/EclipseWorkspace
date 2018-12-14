@@ -42,15 +42,8 @@
 <item elementID="=google-translate/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1539262642989_3" label="Java Test Sources" name="Java Test Sources"/>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540185602176_4" label="EasyTranslateConfig" name="EasyTranslateConfig">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/example" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Translate" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EasyTranslateConfig" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/google-translate" type="4"/>
-</workingSet>
-<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540976524372_6" label="JavaGoogleSpeechRecognizer" name="JavaGoogleSpeechRecognizer">
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/JavaGoogleSpeechRecognizer" type="4"/>
-</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540185602176_4" label="EasyTranslateConfig" name="EasyTranslateConfig"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540976524372_6" label="JavaGoogleSpeechRecognizer" name="JavaGoogleSpeechRecognizer"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1519690585453_0" label="Window Working Set" name="Aggregate for window 1519690585453"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1535168695584_1" label="Window Working Set" name="Aggregate for window 1535168695584"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1540186243318_5" label="Window Working Set" name="Aggregate for window 1540186243318"/>

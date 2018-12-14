@@ -7,9 +7,11 @@ import org.json.simple.JSONObject;
 
 public class JSONFile {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		JSONObject jsonObject = new JSONObject();
 		JSONArray jsonArray = new JSONArray();
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		String cmd = "";
 		String MoTa = "";

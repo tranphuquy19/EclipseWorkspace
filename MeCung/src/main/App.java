@@ -45,6 +45,7 @@ public class App {
 		maps = null;
 		String part[] = fileContent.split("\n");
 		kichThuoc  = part.length - 1;
+		@SuppressWarnings("unused")
 		int kt = Integer.parseInt(part[0]);
 		System.out.println("Size: "+Integer.toString(kichThuoc)+"; Content File: ");
 		for(int i = 1; i<kichThuoc + 1; i++)

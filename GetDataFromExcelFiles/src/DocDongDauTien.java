@@ -11,12 +11,14 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DocDongDauTien {
 
+	@SuppressWarnings("incomplete-switch")
 	public static void main(String[] args) throws IOException {
 
 		// Đọc một file XSL.
 		FileInputStream inputStream = new FileInputStream(new File("C:/Users/tranp/Desktop/datasv.xlsx"));
 
 		// Đối tượng workbook cho file XSL.
+		@SuppressWarnings("resource")
 		XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
 
 		// Lấy ra sheet đầu tiên từ workbook
