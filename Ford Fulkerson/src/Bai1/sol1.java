@@ -1,54 +1,108 @@
 package Bai1;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.Reader;
 import java.util.Arrays;
 
 public class sol1 {
-	final int max = 100;
-	final int maxC = 10000;
-	int c[][] = new int[max][max];
-	int f[][] = new int[max][max];
-	int Trace[] = new int[max];
-	int Delta[] = new int[max];
-	int n, A, B;
-	
-	private void SetZeros(int array[][]) {
+	final static int max = 100;
+	final static int maxC = 10000;
+	static int c[][] = new int[max][max];
+	static int f[][] = new int[max][max];
+	static int Trace[] = new int[max];
+	static int Delta[] = new int[max];
+	static int n;
+	static int A;
+	static int B;
+	static String fileContent = "";
+	static String filePath = "input.txt";
+
+	private static void readFile() {
+		Reader reader;
+		BufferedReader bufferedReader = null;
+		try {
+			reader = new FileReader(filePath);
+			bufferedReader = new BufferedReader(reader);
+			String lines;
+			while ((lines = bufferedReader.readLine()) != null) {
+				fileContent += lines + "\n";
+			}
+		} catch (FileNotFoundException ex) {
+			System.out.println("The file " + filePath + " not found!");
+		} catch (IOException ex) {
+			System.out.println("Problem occurs when reading file!");
+		} finally {
+			if (bufferedReader != null) {
+				try {
+					bufferedReader.close();
+				} catch (IOException e) {
+					System.out.println("Problem occurs when closing file !");
+					e.printStackTrace();
+				}
+			}
+		}
+	}
+
+	private static void SetZeros(int array[][]) {
+		for(int i = 0; i<array.length; i++) {
+			Arrays.fill(array[i], 0);
+		}
+	}
+
+	private static void SetZeros(int array[]) {
 		Arrays.fill(array, 0);
 	}
 
-	private void SetZeros(int array[]) {
-		Arrays.fill(array, 0);
+	private static void Enter() {
+		int m, i, u, v;
+		SetZeros(c);
+		String part[] = fileContent.split("\n");
+		System.out.println("content file:\n"+fileContent);
+		String part2[] = part[0].trim().split(" ");
+
+		n = Integer.parseInt(part2[0]);
+		m = Integer.parseInt(part2[1]);
+		A = Integer.parseInt(part2[2]);
+		B = Integer.parseInt(part2[3]);
+
+		for (i = 1; i <= m; i++) {
+			String part3[] = part[i].trim().split(" ");
+			u = Integer.parseInt(part3[0]);
+			v = Integer.parseInt(part3[1]);
+			c[u][v] = Integer.parseInt(part3[2]);
+		}
 	}
 
-	private void Enter() {
-
-	}
-
-	private int Min(int x, int y) {
+	private static int Min(int x, int y) {
 		if (x < y) {
 			return x;
 		} else
 			return y;
 	}
 
-	private boolean FindPath() {
-		int u, v;
+	private static boolean FindPath() {
+		int u = 1, v = 1;
 		int[] Queue = new int[max];
 		int First, Last;
 		SetZeros(Trace);
-		First = 0;
-		Last = 0;
-		Queue[0] = A;
-		Trace[A] = n + 1;
+		First = 1;
+		Last = 1;
+		Queue[1] = A;
+		Trace[A] = n + 1 ;
 		Delta[A] = maxC;
 		do {
 			u = Queue[First];
 			First++;
-			for (v = 0; v < n - 1; v++) {
+			for (v = 1; v <= n; v++) {
 				if (Trace[v] == 0) {
 					if (f[u][v] < c[u][v]) {
 						Trace[v] = u;
 						Delta[v] = Min(Delta[u], c[u][v] - f[u][v]);
-					} else {
+					}
+					else {
 						if (f[v][u] > 0) {
 							Trace[v] = -u;
 							Delta[v] = Min(Delta[u], f[v][u]);
@@ -64,11 +118,11 @@ public class sol1 {
 					}
 				}
 			}
-		} while (First > Last);
+		} while (First <= Last);
 		return false;
 	}
 
-	private void IncFlow() {
+	private static void IncFlow() {
 		int IncValue, u, v;
 
 		IncValue = Delta[B];
@@ -82,27 +136,35 @@ public class sol1 {
 				f[v][u] = f[v][u] - IncValue;
 			}
 			v = u;
-		} while (v == A);
+		} while (v != A);
 	}
 
-	private void PrintResult(){
+	private static void PrintResult() {
 		int u, v, m;
 		m = 0;
-		for(u = 0; u< n; u++) {
-			for(v = 0; v <n ; v++) {
-				if(c[u][v] > 0) {
-					System.out.println("f("+u+","+v+")="+f[u][v]);
-					if(u == A) {
+		for (u = 1; u <= n; u++) {
+			for (v = 1; v <= n; v++) {
+				if (c[u][v] > 0) {
+					System.out.println("f(" + u + "," + v + ")=" + f[u][v]);
+					if (u == A) {
 						m = m + f[A][v];
 					}
 				}
 			}
 		}
-		System.out.println("Max Flow:"+m);
+		System.out.println("Max Flow:" + m);
 	}
-	
+
 	public static void main(String[] args) {
-
+		readFile();
+		Enter();
+		SetZeros(f);
+		do {
+			if(!FindPath()) {
+				break;
+			}
+			IncFlow();
+		}while(true);
+		PrintResult();
 	}
-
 }
