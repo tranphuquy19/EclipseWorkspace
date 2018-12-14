@@ -1,9 +1,0 @@
-package defaultConfig;
-
-public class App {
-
-	public static void main(String[] args) {
-		new EasyTranslateConfig().setVisible(true);
-	}
-
-}

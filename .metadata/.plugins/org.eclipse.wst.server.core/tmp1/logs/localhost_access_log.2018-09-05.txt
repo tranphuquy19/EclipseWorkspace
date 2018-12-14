@@ -1,5 +1,0 @@
-127.0.0.1 - - [05/Sep/2018:22:22:52 +0700] "GET / HTTP/1.1" 404 1074
-0:0:0:0:0:0:0:1 - - [05/Sep/2018:22:22:53 +0700] "GET /DownloadPageServlet/index.html HTTP/1.1" 200 97
-192.168.1.100 - - [05/Sep/2018:22:28:19 +0700] "GET /DownloadPageServlet HTTP/1.1" 302 -
-192.168.1.100 - - [05/Sep/2018:22:28:19 +0700] "GET /DownloadPageServlet/ HTTP/1.1" 200 97
-192.168.1.100 - - [05/Sep/2018:22:28:20 +0700] "GET /favicon.ico HTTP/1.1" 404 1085
