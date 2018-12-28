@@ -20,7 +20,7 @@ public class sol1 {
 	static String fileContent = "";
 	
 	static String filePath = "input3.txt"; //sol1
-	//static String filePath = "input2.txt"; //sol2
+	//static String filePath = "minicut.txt"; //sol2
 
 	private static void readFile() {
 		Reader reader;
