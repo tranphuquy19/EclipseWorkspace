@@ -2264,3 +2264,33 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact Google-Transl
 2018-12-14 21:25:19,672 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-14 21:25:19,672 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\java-google-speech-api\src\test\resources
 2018-12-14 21:25:44,648 [Worker-0: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-15 02:17:32,411 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-15 08:59:34,637 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-12-27 16:56:51,049 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-27 16:58:07,518 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:07,536 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\EasyTranslateConfig\src\main\resources
+2018-12-27 16:58:07,540 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:07,550 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\EasyTranslateConfig\src\test\resources
+2018-12-27 16:58:10,678 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:10,692 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\Java-Google-Speech-Recognizer\src\main\resources
+2018-12-27 16:58:10,694 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:10,714 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\Java-Google-Speech-Recognizer\src\test\resources
+2018-12-27 16:58:13,128 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:13,146 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-27 16:58:13,161 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-27 16:58:13,182 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\example\src\test\resources
+2018-12-27 16:58:15,126 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:15,127 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\java-google-speech-api\src\main\resources
+2018-12-27 16:58:15,144 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:15,159 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\java-google-speech-api\src\test\resources
+2018-12-27 16:58:15,502 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/java-google-speech-api: com.darkprograms.speech:java-google-speech-api:2.1 with classifier  to /java-google-speech-api/target/classes
+2018-12-27 16:58:15,509 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:15,509 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\google-translate\src\main\resources
+2018-12-27 16:58:15,569 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:15,570 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\google-translate\src\test\resources
+2018-12-27 16:58:16,024 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/google-translate: Google-Translate:google-translate:0.0.1-SNAPSHOT with classifier  to /google-translate/target/classes
+2018-12-27 16:58:16,027 [Worker-3: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/java-google-speech-api: com.darkprograms.speech:java-google-speech-api:2.1 with classifier  to /java-google-speech-api/target/classes
+2018-12-27 16:58:16,054 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:16,054 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\Translate\src\main\resources
+2018-12-27 16:58:16,056 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-27 16:58:16,056 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\Translate\src\test\resources

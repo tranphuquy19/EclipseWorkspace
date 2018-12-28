@@ -18,7 +18,9 @@ public class sol1 {
 	static int A;
 	static int B;
 	static String fileContent = "";
-	static String filePath = "input.txt";
+	
+	static String filePath = "input3.txt"; //sol1
+	//static String filePath = "input2.txt"; //sol2
 
 	private static void readFile() {
 		Reader reader;
