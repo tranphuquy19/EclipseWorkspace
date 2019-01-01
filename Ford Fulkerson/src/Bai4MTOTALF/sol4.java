@@ -1,4 +1,4 @@
-package Bai1;
+package Bai4MTOTALF;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.Reader;
 import java.util.Arrays;
 
-public class sol1 {
+public class sol4 {
 	final static int max = 100;
 	final static int maxC = 10000;
 	static int c[][] = new int[max][max];
@@ -63,7 +63,7 @@ public class sol1 {
 		int m, i, u, v;
 		SetZeros(c);
 		String part[] = fileContent.split("\n");
-		System.out.println("content file:\n"+fileContent);
+		//System.out.println("content file:\n"+fileContent);
 		String part2[] = part[0].trim().split(" ");
 
 		n = Integer.parseInt(part2[0]);
@@ -148,7 +148,7 @@ public class sol1 {
 		for (u = 1; u <= n; u++) {
 			for (v = 1; v <= n; v++) {
 				if (c[u][v] > 0) {
-					System.out.println("f(" + u + "," + v + ")=" + f[u][v]);
+					//System.out.println("f(" + u + "," + v + ")=" + f[u][v]);
 					if (u == A) {
 						m = m + f[A][v];
 					}
