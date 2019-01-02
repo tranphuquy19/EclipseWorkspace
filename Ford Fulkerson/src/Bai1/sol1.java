@@ -125,18 +125,18 @@ public class sol1 {
 		return false;
 	}
 
-	private static void IncFlow() {
+	private static void IncFlow() { //tăng luồng dọc đường tăng luồng
 		int IncValue, u, v;
 
-		IncValue = Delta[B];
-		v = B;
+		IncValue = Delta[B];//nhãn Delta[B] là trọng số nhỏ nhất trên các cung của đường tăng luồng
+		v = B; //gán v trong cặp u,v là B
 		do {
-			u = Trace[v];
+			u = Trace[v]; //Xét cung (|u|, v) trên đường tăng luồng
 			if (u > 0) {
-				f[u][v] = f[u][v] + IncValue;
+				f[u][v] = f[u][v] + IncValue; //thuận thì tăng thêm f[u][v]
 			} else {
 				u = -u;
-				f[v][u] = f[v][u] - IncValue;
+				f[v][u] = f[v][u] - IncValue; //ngược lại
 			}
 			v = u;
 		} while (v != A);
