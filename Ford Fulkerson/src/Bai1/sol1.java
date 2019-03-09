@@ -63,7 +63,7 @@ public class sol1 {
 		int m, i, u, v;
 		SetZeros(c);
 		String part[] = fileContent.split("\n");
-		System.out.println("content file:\n"+fileContent);
+		//System.out.println("content file:\n"+fileContent);
 		String part2[] = part[0].trim().split(" ");
 
 		n = Integer.parseInt(part2[0]);

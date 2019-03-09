@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Tran Phu Quy\Downloads\Enkel-JVM-language"/>
 		<item value="C:\Users\tranp\Documents\GitHub\java-google-speech-api"/>
 		<item value="C:\Users\tranp\Downloads\Math\Math"/>
 		<item value="C:\Users\tranp\Downloads\JSON-Java-Tutorial-master\JSON-Java-Tutorial-master"/>
@@ -19,7 +20,6 @@
 	<section name="NewWizardAction">
 		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.ui.Basic"/>
 			<item value="org.eclipse.jdt.ui.java"/>
 		</list>
 	</section>
