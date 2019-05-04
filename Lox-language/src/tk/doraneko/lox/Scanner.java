@@ -1,4 +1,4 @@
-//> Scanning scanner-class
+//> Scanning class
 package tk.doraneko.lox;
 
 import java.util.ArrayList;
@@ -52,6 +52,7 @@ class Scanner {
     }
 
     tokens.add(new Token(EOF, "", null, line));
+    //System.out.println(tokens.toString());
     return tokens;
   }
 //< scan-tokens
@@ -174,6 +175,7 @@ class Scanner {
 
     // Trim the surrounding quotes.
     String value = source.substring(start + 1, current - 1);
+    //System.out.println(start+"..."+current);
     addToken(STRING, value);
   }
 //< string
