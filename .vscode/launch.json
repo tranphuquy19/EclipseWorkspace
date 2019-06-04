@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArgsExample",
+            "request": "launch",
+            "mainClass": "argsExample.ArgsExample"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Grayscale",
+            "request": "launch",
+            "mainClass": "main.Grayscale"
+        }
+    ]
+}

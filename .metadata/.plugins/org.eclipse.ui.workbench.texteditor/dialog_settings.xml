@@ -6,12 +6,17 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Max Flow" key="selection"/>
+		<item value="main" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="main"/>
+			<item value="Error"/>
+			<item value="While"/>
+			<item value="&apos;o&apos;"/>
+			<item value="no file"/>
 			<item value="Max Flow"/>
 			<item value="max"/>
 			<item value="trigg"/>
@@ -22,9 +27,6 @@
 			<item value="url"/>
 			<item value="\\"/>
 			<item value="build"/>
-			<item value="txt"/>
-			<item value="speak"/>
-			<item value="Call My Cat"/>
 		</list>
 		<list key="replacehistory">
 			<item value="\\"/>
@@ -35,7 +37,7 @@
 		<item value="284" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="391" key="DIALOG_HEIGHT"/>
-		<item value="796" key="DIALOG_X_ORIGIN"/>
-		<item value="238" key="DIALOG_Y_ORIGIN"/>
+		<item value="1066" key="DIALOG_X_ORIGIN"/>
+		<item value="171" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
