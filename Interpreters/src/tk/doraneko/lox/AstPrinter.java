@@ -219,10 +219,6 @@ class AstPrinter implements Expr.Visitor<String>, Stmt.Visitor<String> {
     return builder.toString();
   }
 //< print-utilities
-//> omit
-  // Note: AstPrinting other types of syntax trees is not shown in the
-  // book, but this is provided here as a reference for those reading
-  // the full code.
   private String parenthesize2(String name, Object... parts) {
     StringBuilder builder = new StringBuilder();
 
@@ -248,7 +244,6 @@ class AstPrinter implements Expr.Visitor<String>, Stmt.Visitor<String> {
     return builder.toString();
   }
 //< omit
-/* Representing Code printer-main < Representing Code omit*/
 
   public static void main(String[] args) {
     Expr expression = new Expr.Binary(

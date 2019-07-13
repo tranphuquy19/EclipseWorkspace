@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.awt.Toolkit"/>
-<fullyQualifiedTypeName name="java.awt.HeadlessException"/>
-<fullyQualifiedTypeName name="java.awt.datatransfer.UnsupportedFlavorException"/>
-<fullyQualifiedTypeName name="java.awt.datatransfer.DataFlavor"/>
-<fullyQualifiedTypeName name="javafx.scene.Parent"/>
 <fullyQualifiedTypeName name="javafx.fxml.FXMLLoader"/>
 <fullyQualifiedTypeName name="javafx.scene.Scene"/>
 <fullyQualifiedTypeName name="java.io.Reader"/>
@@ -23,11 +18,9 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="def.JSONConfig"/>
 <fullyQualifiedTypeName name="def.InstallEasyTranslate"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.nio.file.StandardCopyOption"/>
 <fullyQualifiedTypeName name="org.json.simple.parser.JSONParser"/>
 <fullyQualifiedTypeName name="javafx.scene.transform.Scale"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.json.simple.JSONObject"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="javax.swing.DefaultComboBoxModel"/>
@@ -59,5 +52,12 @@
 <fullyQualifiedTypeName name="java.awt.Desktop"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="tk.doraneko.topdown.Parser"/>
+<fullyQualifiedTypeName name="support.StdOut"/>
+<fullyQualifiedTypeName name="support.StdRandom"/>
+<fullyQualifiedTypeName name="support.StdArrayIO"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
 </qualifiedTypeNameHistroy>

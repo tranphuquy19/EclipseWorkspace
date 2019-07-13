@@ -8,4 +8,8 @@
 		<section name="VariablePage">
 		</section>
 	</section>
+	<section name="org.eclipse.oomph.setup.ui.LicenseDialog">
+		<item value="600" key="dialogHeight"/>
+		<item value="1000" key="dialogWidth"/>
+	</section>
 </section>

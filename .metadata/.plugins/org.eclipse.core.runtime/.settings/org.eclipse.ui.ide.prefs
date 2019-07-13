@@ -4,6 +4,7 @@ IMPORT_FILES_AND_FOLDERS_RELATIVE=true
 IMPORT_FILES_AND_FOLDERS_TYPE=23,1
 PROBLEMS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
+org.eclipse.ui.internal.views.markers.CachedMarkerBuilderorg.eclipse.ui.views.BookmarkView=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<filterGroups andFilters\="false" markerLimit\="100" markerLimitEnabled\="true">\r\n<filterGroup IMemento.internal.id\="USER1559874118106" enabled\="true" filterLimit\="0" name\="New Configuration" scope\="0" workingSet\="Aggregate for window 1519690585453">\r\n<fieldFilter IMemento.internal.id\="org.eclipse.ui.ide.descriptionField" containsModifier\="CONTAINS" containsText\="kinomo"/>\r\n</filterGroup>\r\n</filterGroups>
 platformState=1539262609575
 quickStart=false
 tipsAndTricks=true

@@ -5960,3 +5960,30 @@ org.eclipse.core.runtime.CoreException: Launch configuration FLAC_ConsoleFileEnc
 2019-05-30 23:01:55,456 [Worker-6: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2019-05-31 10:08:10,872 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2019-05-31 22:23:39,908 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-06-04 23:16:56,679 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-06-06 14:44:27,740 [Worker-9: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-07-09 20:23:15,826 [Worker-10: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-07-09 20:53:00,429 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-07-09 20:57:53,898 [Worker-18: Build] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 20:57:53,907 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\EasyTranslateConfig\src\main\resources
+2019-07-09 20:57:53,909 [Worker-18: Build] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 20:57:53,917 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\EasyTranslateConfig\src\test\resources
+2019-07-09 20:57:58,850 [Worker-18: Build] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 20:57:58,863 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\Java-Google-Speech-Recognizer\src\main\resources
+2019-07-09 20:57:58,866 [Worker-18: Build] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2019-07-09 20:57:58,877 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\Java-Google-Speech-Recognizer\src\test\resources
+2019-07-09 20:58:05,242 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,242 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\java-google-speech-api\src\main\resources
+2019-07-09 20:58:05,245 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,246 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\Documents\Git\GitClone\java-google-speech-api\src\test\resources
+2019-07-09 20:58:05,529 [Worker-18: Build] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/java-google-speech-api: com.darkprograms.speech:java-google-speech-api:2.1 with classifier  to /java-google-speech-api/target/classes
+2019-07-09 20:58:05,547 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,548 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\google-translate\src\main\resources
+2019-07-09 20:58:05,568 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,569 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\google-translate\src\test\resources
+2019-07-09 20:58:05,899 [Worker-18: Build] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/google-translate: Google-Translate:google-translate:0.0.1-SNAPSHOT with classifier  to /google-translate/target/classes
+2019-07-09 20:58:05,904 [Worker-18: Build] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/java-google-speech-api: com.darkprograms.speech:java-google-speech-api:2.1 with classifier  to /java-google-speech-api/target/classes
+2019-07-09 20:58:05,917 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,917 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\Translate\src\main\resources
+2019-07-09 20:58:05,919 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-07-09 20:58:05,920 [Worker-18: Build] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Tran Phu Quy\eclipse-workspace\Translate\src\test\resources
